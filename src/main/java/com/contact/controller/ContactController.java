@@ -28,6 +28,7 @@ public class ContactController {
 		contactList.add(new Contact("Bipin", 33333));
 		contactList.add(new Contact("Vivek", 44444));
 		contactList.add(new Contact("Sara", 88888));
+		contactList.add(new Contact("Isabella", 99999));
 	}
 
 	@GetMapping("/contact")
